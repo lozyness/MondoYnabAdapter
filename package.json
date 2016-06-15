@@ -1,0 +1,14 @@
+{
+  "name": "mondo-ynab-adapter",
+  "version": "1.0.0",
+  "description": "A web service that registers a webhook against a mondo account and adds transactions to a ynab account in real time.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laura Turley",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
