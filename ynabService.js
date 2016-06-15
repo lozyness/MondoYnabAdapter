@@ -3,10 +3,9 @@ var querystring = require("querystring");
 var config = require("./config");
 var uuid = require("uuid");
 
-function registerTransaction(response, content, code) {
+function registerTransaction(response, content) {
   console.log(response);
   console.log(content);
-  console.log(code);
   // var username = config.ynab.email;
   // var pass = config.ynab.password;
   // var requestString = '{"email":"<username>","password":"<password>","remember_me":false}';
