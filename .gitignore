@@ -2,3 +2,4 @@ node_modules
 resources
 .idea
 examples
+.DS_Store
