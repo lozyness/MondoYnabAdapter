@@ -4,8 +4,8 @@ var hostname = "https://app.youneedabudget.com/api/v1/catalog"
 
 function getUser() {
     return {
-        'username': "laura.turley89@gmail.com",
-        'password': "BlueBellChipmunk"
+        'username': "lauraturley.dev@gmail.com",
+        'password': "RedRumMonkey"
     }
 }
 

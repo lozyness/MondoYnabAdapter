@@ -9,7 +9,7 @@ function convertMondoTransaction(transactionData) {
     transaction['date'] = "10/04/2014";
     transaction['payee'] = "HelloFresh";
     transaction['memo'] = "Food - W3" + ': ' + "Third Week Food Shopping";
-    transaction['amount'] = 1999;
+    transaction['amount'] = -1999;
   } else {
     transaction['date'] = transactionData.created;
     transaction['payee'] = transactionData.merchant.name;
